@@ -4,8 +4,6 @@ name: Workflow Dispatch for Hugo Page
 
 on:
   push:
-    branches: 
-      - main
   # Allows manual trigger
   workflow_dispatch:
 
