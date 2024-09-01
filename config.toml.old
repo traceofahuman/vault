@@ -1,0 +1,7 @@
+[[menu.articles]]
+name = 'About'
+pageref = 'about.md'
+
+[[menu.articles]]
+name = 'Blog Posts'
+pageref = 'blog/*.md'

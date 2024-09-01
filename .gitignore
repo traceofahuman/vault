@@ -1,0 +1,10 @@
+# Gitignore file for obsidian folder
+
+## obsidian related
+.obsidian/*
+.obsidian/plugins/*
+
+## Other
+null*
+.trash/
+.DS_Store
