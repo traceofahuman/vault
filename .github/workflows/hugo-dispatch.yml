@@ -16,6 +16,6 @@ jobs:
       - name: Fire Dispatch Event
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.BLOG_POST_ACTION }}
+          token: ${{ secrets.PAT }}
           repository: traceofahuman/blog
           event-type: update
