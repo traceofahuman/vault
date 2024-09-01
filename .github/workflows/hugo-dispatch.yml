@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fire Dispatch Event
-        uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v3
         with:
-          repository: traceofahuman/blog
           token: ${{ secrets.BLOG_POST_ACTION }}
+          repository: traceofahuman/blog
           event-type: update
