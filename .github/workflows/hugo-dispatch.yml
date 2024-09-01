@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Workflow Dispatch for Hugo Page
+
+on:
+  push:
+  # Allows manual trigger
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fire Dispatch Event
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PAT }}
+          repository: traceofahuman/blog
+          event-type: update
