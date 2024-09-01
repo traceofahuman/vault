@@ -1,11 +1,7 @@
 ---
-title: "my-second-post"
-date: {{ .Date }}
+title: my-second-post
+date: 2024-09-01T16:09:08+03:00
 draft: true
-description:
+description: 
 isStarred: false
 ---
-
-## My Second Post
-
-Hic forum est.
