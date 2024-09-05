@@ -1,6 +1,6 @@
 ---
 title: "{{title}}"
-date: "{{date:YYYY-MM-DDTHH:mm:ss+03:00}}"
+date: "{{date:YYYY-MM-DDTHH:mm:ss}}"
 draft: true
 description:
 isStarred: false
