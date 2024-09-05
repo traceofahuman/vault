@@ -1,6 +1,5 @@
 ---
 title: Contact
-date: 2024-09-01T22:23:30+03:00
 draft: false
 description: 
 ---
