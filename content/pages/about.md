@@ -1,6 +1,5 @@
 ---
 title: "About"
-date: 2024-08-29T22:33:42+02:00
 draft: false
 toc: false 
 ---
