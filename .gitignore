@@ -3,6 +3,7 @@
 ## obsidian related
 .obsidian/*
 .obsidian/plugins/*
+.obsidian.vimrc
 
 ## Other
 null*
